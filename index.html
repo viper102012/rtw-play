@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tinker's Bot Workshop (test build)</title>
+<style>
+  body { margin: 0; font-family: system-ui, sans-serif; background: #14181f; color: #e8ecf2; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px; }
+  h1 { margin: 0 0 8px; font-size: 2rem; }
+  p { line-height: 1.5; color: #b9c2cf; }
+  .shots { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin: 8px 0 28px; }
+  .shots img { width: 100%; border-radius: 8px; border: 1px solid #2c3444; display: block; }
+  .links a { color: #f2b33d; margin-right: 18px; }
+  .cards { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin: 32px 0; }
+  a.card { display: block; padding: 20px; border-radius: 12px; background: #1e2430; color: inherit; text-decoration: none; border: 1px solid #2c3444; }
+  a.card:hover { border-color: #f2b33d; }
+  a.card h2 { margin: 0 0 6px; font-size: 1.2rem; color: #f2b33d; }
+  small { color: #7d8797; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tinker's Bot Workshop</h1>
+  <p>A learning game about electricity, circuits, motors and robots. This is a test build, so expect rough edges.</p>
+  <div class="cards">
+    <a class="card" href="workshop/"><h2>3D Workshop</h2><p>Build with pins, axles, gears, motors and wires, then press Test. Best in Chrome or Edge on a PC. The first load takes a moment.</p></a>
+    <a class="card" href="spark-bench/"><h2>Spark Bench</h2><p>Lessons, a circuit lab with volts, amps and watts, and board code you can run.</p></a>
+  </div>
+  <div class="shots">
+    <a href="screenshots/car_build.jpg"><img src="screenshots/car_build.jpg" alt="A four motor car on the build bench" loading="lazy"></a>
+    <a href="screenshots/tracked_test.jpg"><img src="screenshots/tracked_test.jpg" alt="A tracked vehicle in the test area" loading="lazy"></a>
+    <a href="screenshots/belt_motion.jpg"><img src="screenshots/belt_motion.jpg" alt="A belt drive running in Motion" loading="lazy"></a>
+    <a href="screenshots/arm_build.jpg"><img src="screenshots/arm_build.jpg" alt="A robot arm" loading="lazy"></a>
+  </div>
+  <p class="links"><a href="https://github.com/viper102012/rtw-play/issues/new/choose">Report a bug or idea</a><a href="https://github.com/viper102012/rtw-play/discussions">Discussions</a></p>
+  <p><small>&copy; 2026 viper102012. All rights reserved. Testing only, please don't copy or re-upload. <a href="version.txt" style="color:#7d8797">Build info</a></small></p>
+</main>
+</body>
+</html>
